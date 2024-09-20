@@ -1,0 +1,42 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
+  "rushVersion": "5.83.4",
+  "pnpmVersion": "6.35.1",
+  "nodeSupportedVersionRange": ">=14.17.1",
+  "gitPolicy": {},
+  "repository": {
+    "url": "",
+    "defaultBranch": "master",
+    "defaultRemote": "origin"
+  },
+  "eventHooks": {
+    "preRushInstall": [],
+    "postRushInstall": [],
+    "preRushBuild": [],
+    "postRushBuild": []
+  },
+  "variants": [],
+  "projects": [
+    {
+      "packageName": "main",
+      "projectFolder": "packages/main",
+      "shouldPublish": false,
+      "versionPolicyName": "individualVersion",
+      "tags": []
+    },
+    {
+      "packageName": "share",
+      "projectFolder": "packages/share",
+      "shouldPublish": false,
+      "versionPolicyName": "individualVersion",
+      "tags": []
+    },
+    {
+      "packageName": "server",
+      "projectFolder": "packages/server",
+      "shouldPublish": false,
+      "versionPolicyName": "individualVersion",
+      "tags": []
+    }
+  ]
+}
